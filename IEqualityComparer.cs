@@ -12,13 +12,7 @@ namespace dz_linq_
                 
             return true;
         }
-        public bool EqualsAge(User b1, User b2)
-        {
-            if(b1.Age != b2.Age)
-                return false;
-            
-            return true;
-        }
+    
 
         public int GetHashCode(User bx)
         {
